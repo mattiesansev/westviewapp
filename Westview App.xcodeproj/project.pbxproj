@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A61F07921EEA6CD000060A63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61F07911EEA6CD000060A63 /* AppDelegate.swift */; };
+		A61F07941EEA6CD000060A63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61F07931EEA6CD000060A63 /* ViewController.swift */; };
+		A61F07971EEA6CD000060A63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A61F07951EEA6CD000060A63 /* Main.storyboard */; };
+		A61F07991EEA6CD000060A63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A61F07981EEA6CD000060A63 /* Assets.xcassets */; };
+		A61F079C1EEA6CD000060A63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A61F079A1EEA6CD000060A63 /* LaunchScreen.storyboard */; };
+		A61F07A71EEA6CD000060A63 /* Westview_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61F07A61EEA6CD000060A63 /* Westview_AppTests.swift */; };
+		A61F07B21EEA6CD000060A63 /* Westview_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61F07B11EEA6CD000060A63 /* Westview_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A61F07A31EEA6CD000060A63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A61F07861EEA6CCF00060A63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A61F078D1EEA6CCF00060A63;
+			remoteInfo = "Westview App";
+		};
+		A61F07AE1EEA6CD000060A63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A61F07861EEA6CCF00060A63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A61F078D1EEA6CCF00060A63;
+			remoteInfo = "Westview App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A61F078E1EEA6CCF00060A63 /* Westview App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Westview App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61F07911EEA6CD000060A63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A61F07931EEA6CD000060A63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A61F07961EEA6CD000060A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A61F07981EEA6CD000060A63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A61F079B1EEA6CD000060A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A61F079D1EEA6CD000060A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A61F07A21EEA6CD000060A63 /* Westview AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Westview AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61F07A61EEA6CD000060A63 /* Westview_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Westview_AppTests.swift; sourceTree = "<group>"; };
+		A61F07A81EEA6CD000060A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A61F07AD1EEA6CD000060A63 /* Westview AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Westview AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61F07B11EEA6CD000060A63 /* Westview_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Westview_AppUITests.swift; sourceTree = "<group>"; };
+		A61F07B31EEA6CD000060A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A61F078B1EEA6CCF00060A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61F079F1EEA6CD000060A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61F07AA1EEA6CD000060A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A61F07851EEA6CCF00060A63 = {
+			isa = PBXGroup;
+			children = (
+				A61F07901EEA6CCF00060A63 /* Westview App */,
+				A61F07A51EEA6CD000060A63 /* Westview AppTests */,
+				A61F07B01EEA6CD000060A63 /* Westview AppUITests */,
+				A61F078F1EEA6CCF00060A63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A61F078F1EEA6CCF00060A63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A61F078E1EEA6CCF00060A63 /* Westview App.app */,
+				A61F07A21EEA6CD000060A63 /* Westview AppTests.xctest */,
+				A61F07AD1EEA6CD000060A63 /* Westview AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A61F07901EEA6CCF00060A63 /* Westview App */ = {
+			isa = PBXGroup;
+			children = (
+				A61F07911EEA6CD000060A63 /* AppDelegate.swift */,
+				A61F07931EEA6CD000060A63 /* ViewController.swift */,
+				A61F07951EEA6CD000060A63 /* Main.storyboard */,
+				A61F07981EEA6CD000060A63 /* Assets.xcassets */,
+				A61F079A1EEA6CD000060A63 /* LaunchScreen.storyboard */,
+				A61F079D1EEA6CD000060A63 /* Info.plist */,
+			);
+			path = "Westview App";
+			sourceTree = "<group>";
+		};
+		A61F07A51EEA6CD000060A63 /* Westview AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A61F07A61EEA6CD000060A63 /* Westview_AppTests.swift */,
+				A61F07A81EEA6CD000060A63 /* Info.plist */,
+			);
+			path = "Westview AppTests";
+			sourceTree = "<group>";
+		};
+		A61F07B01EEA6CD000060A63 /* Westview AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A61F07B11EEA6CD000060A63 /* Westview_AppUITests.swift */,
+				A61F07B31EEA6CD000060A63 /* Info.plist */,
+			);
+			path = "Westview AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A61F078D1EEA6CCF00060A63 /* Westview App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61F07B61EEA6CD000060A63 /* Build configuration list for PBXNativeTarget "Westview App" */;
+			buildPhases = (
+				A61F078A1EEA6CCF00060A63 /* Sources */,
+				A61F078B1EEA6CCF00060A63 /* Frameworks */,
+				A61F078C1EEA6CCF00060A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Westview App";
+			productName = "Westview App";
+			productReference = A61F078E1EEA6CCF00060A63 /* Westview App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A61F07A11EEA6CD000060A63 /* Westview AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61F07B91EEA6CD000060A63 /* Build configuration list for PBXNativeTarget "Westview AppTests" */;
+			buildPhases = (
+				A61F079E1EEA6CD000060A63 /* Sources */,
+				A61F079F1EEA6CD000060A63 /* Frameworks */,
+				A61F07A01EEA6CD000060A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A61F07A41EEA6CD000060A63 /* PBXTargetDependency */,
+			);
+			name = "Westview AppTests";
+			productName = "Westview AppTests";
+			productReference = A61F07A21EEA6CD000060A63 /* Westview AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A61F07AC1EEA6CD000060A63 /* Westview AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61F07BC1EEA6CD000060A63 /* Build configuration list for PBXNativeTarget "Westview AppUITests" */;
+			buildPhases = (
+				A61F07A91EEA6CD000060A63 /* Sources */,
+				A61F07AA1EEA6CD000060A63 /* Frameworks */,
+				A61F07AB1EEA6CD000060A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A61F07AF1EEA6CD000060A63 /* PBXTargetDependency */,
+			);
+			name = "Westview AppUITests";
+			productName = "Westview AppUITests";
+			productReference = A61F07AD1EEA6CD000060A63 /* Westview AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A61F07861EEA6CCF00060A63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ronak Shah";
+				TargetAttributes = {
+					A61F078D1EEA6CCF00060A63 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A8F2RPBSBD;
+						ProvisioningStyle = Automatic;
+					};
+					A61F07A11EEA6CD000060A63 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A8F2RPBSBD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A61F078D1EEA6CCF00060A63;
+					};
+					A61F07AC1EEA6CD000060A63 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A8F2RPBSBD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A61F078D1EEA6CCF00060A63;
+					};
+				};
+			};
+			buildConfigurationList = A61F07891EEA6CCF00060A63 /* Build configuration list for PBXProject "Westview App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A61F07851EEA6CCF00060A63;
+			productRefGroup = A61F078F1EEA6CCF00060A63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A61F078D1EEA6CCF00060A63 /* Westview App */,
+				A61F07A11EEA6CD000060A63 /* Westview AppTests */,
+				A61F07AC1EEA6CD000060A63 /* Westview AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A61F078C1EEA6CCF00060A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61F079C1EEA6CD000060A63 /* LaunchScreen.storyboard in Resources */,
+				A61F07991EEA6CD000060A63 /* Assets.xcassets in Resources */,
+				A61F07971EEA6CD000060A63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61F07A01EEA6CD000060A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61F07AB1EEA6CD000060A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A61F078A1EEA6CCF00060A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61F07941EEA6CD000060A63 /* ViewController.swift in Sources */,
+				A61F07921EEA6CD000060A63 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61F079E1EEA6CD000060A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61F07A71EEA6CD000060A63 /* Westview_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61F07A91EEA6CD000060A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61F07B21EEA6CD000060A63 /* Westview_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A61F07A41EEA6CD000060A63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A61F078D1EEA6CCF00060A63 /* Westview App */;
+			targetProxy = A61F07A31EEA6CD000060A63 /* PBXContainerItemProxy */;
+		};
+		A61F07AF1EEA6CD000060A63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A61F078D1EEA6CCF00060A63 /* Westview App */;
+			targetProxy = A61F07AE1EEA6CD000060A63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A61F07951EEA6CD000060A63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A61F07961EEA6CD000060A63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A61F079A1EEA6CD000060A63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A61F079B1EEA6CD000060A63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A61F07B41EEA6CD000060A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A61F07B51EEA6CD000060A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A61F07B71EEA6CD000060A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A8F2RPBSBD;
+				INFOPLIST_FILE = "Westview App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.RonakShah.Westview-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A61F07B81EEA6CD000060A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A8F2RPBSBD;
+				INFOPLIST_FILE = "Westview App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.RonakShah.Westview-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A61F07BA1EEA6CD000060A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A8F2RPBSBD;
+				INFOPLIST_FILE = "Westview AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.RonakShah.Westview-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Westview App.app/Westview App";
+			};
+			name = Debug;
+		};
+		A61F07BB1EEA6CD000060A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A8F2RPBSBD;
+				INFOPLIST_FILE = "Westview AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.RonakShah.Westview-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Westview App.app/Westview App";
+			};
+			name = Release;
+		};
+		A61F07BD1EEA6CD000060A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A8F2RPBSBD;
+				INFOPLIST_FILE = "Westview AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.RonakShah.Westview-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Westview App";
+			};
+			name = Debug;
+		};
+		A61F07BE1EEA6CD000060A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A8F2RPBSBD;
+				INFOPLIST_FILE = "Westview AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.RonakShah.Westview-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Westview App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A61F07891EEA6CCF00060A63 /* Build configuration list for PBXProject "Westview App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61F07B41EEA6CD000060A63 /* Debug */,
+				A61F07B51EEA6CD000060A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A61F07B61EEA6CD000060A63 /* Build configuration list for PBXNativeTarget "Westview App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61F07B71EEA6CD000060A63 /* Debug */,
+				A61F07B81EEA6CD000060A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A61F07B91EEA6CD000060A63 /* Build configuration list for PBXNativeTarget "Westview AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61F07BA1EEA6CD000060A63 /* Debug */,
+				A61F07BB1EEA6CD000060A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A61F07BC1EEA6CD000060A63 /* Build configuration list for PBXNativeTarget "Westview AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61F07BD1EEA6CD000060A63 /* Debug */,
+				A61F07BE1EEA6CD000060A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A61F07861EEA6CCF00060A63 /* Project object */;
+}
