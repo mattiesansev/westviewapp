@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A61F07921EEA6CD000060A63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61F07911EEA6CD000060A63 /* AppDelegate.swift */; };
-		A61F07941EEA6CD000060A63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61F07931EEA6CD000060A63 /* ViewController.swift */; };
+		A61F07941EEA6CD000060A63 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61F07931EEA6CD000060A63 /* HomeViewController.swift */; };
 		A61F07971EEA6CD000060A63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A61F07951EEA6CD000060A63 /* Main.storyboard */; };
 		A61F07991EEA6CD000060A63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A61F07981EEA6CD000060A63 /* Assets.xcassets */; };
 		A61F079C1EEA6CD000060A63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A61F079A1EEA6CD000060A63 /* LaunchScreen.storyboard */; };
@@ -16,6 +16,9 @@
 		A61F07B21EEA6CD000060A63 /* Westview_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61F07B11EEA6CD000060A63 /* Westview_AppUITests.swift */; };
 		A6ADFE731EEA714900EAD235 /* ButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ADFE721EEA714900EAD235 /* ButtonCollectionViewCell.swift */; };
 		A6ADFE751EEA71B500EAD235 /* AnnouncementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ADFE741EEA71B500EAD235 /* AnnouncementTableViewCell.swift */; };
+		A6EE6BCB1EECC6E700D1F977 /* BellScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EE6BCA1EECC6E700D1F977 /* BellScheduleViewController.swift */; };
+		A6EE6BCD1EECC7F100D1F977 /* BellScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EE6BCC1EECC7F100D1F977 /* BellScheduleTableViewCell.swift */; };
+		A6EE6BCF1EECE5FD00D1F977 /* General.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EE6BCE1EECE5FD00D1F977 /* General.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,7 @@
 /* Begin PBXFileReference section */
 		A61F078E1EEA6CCF00060A63 /* Westview App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Westview App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A61F07911EEA6CD000060A63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A61F07931EEA6CD000060A63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A61F07931EEA6CD000060A63 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A61F07961EEA6CD000060A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A61F07981EEA6CD000060A63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A61F079B1EEA6CD000060A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,9 @@
 		A61F07B31EEA6CD000060A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6ADFE721EEA714900EAD235 /* ButtonCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonCollectionViewCell.swift; sourceTree = "<group>"; };
 		A6ADFE741EEA71B500EAD235 /* AnnouncementTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementTableViewCell.swift; sourceTree = "<group>"; };
+		A6EE6BCA1EECC6E700D1F977 /* BellScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BellScheduleViewController.swift; sourceTree = "<group>"; };
+		A6EE6BCC1EECC7F100D1F977 /* BellScheduleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BellScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		A6EE6BCE1EECE5FD00D1F977 /* General.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = General.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +108,13 @@
 			isa = PBXGroup;
 			children = (
 				A61F07911EEA6CD000060A63 /* AppDelegate.swift */,
-				A61F07931EEA6CD000060A63 /* ViewController.swift */,
+				A61F07931EEA6CD000060A63 /* HomeViewController.swift */,
 				A6ADFE721EEA714900EAD235 /* ButtonCollectionViewCell.swift */,
+				A6EE6BCE1EECE5FD00D1F977 /* General.swift */,
 				A6ADFE741EEA71B500EAD235 /* AnnouncementTableViewCell.swift */,
 				A61F07951EEA6CD000060A63 /* Main.storyboard */,
+				A6EE6BCA1EECC6E700D1F977 /* BellScheduleViewController.swift */,
+				A6EE6BCC1EECC7F100D1F977 /* BellScheduleTableViewCell.swift */,
 				A61F07981EEA6CD000060A63 /* Assets.xcassets */,
 				A61F079A1EEA6CD000060A63 /* LaunchScreen.storyboard */,
 				A61F079D1EEA6CD000060A63 /* Info.plist */,
@@ -269,9 +278,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6ADFE751EEA71B500EAD235 /* AnnouncementTableViewCell.swift in Sources */,
-				A61F07941EEA6CD000060A63 /* ViewController.swift in Sources */,
+				A6EE6BCB1EECC6E700D1F977 /* BellScheduleViewController.swift in Sources */,
+				A61F07941EEA6CD000060A63 /* HomeViewController.swift in Sources */,
 				A6ADFE731EEA714900EAD235 /* ButtonCollectionViewCell.swift in Sources */,
 				A61F07921EEA6CD000060A63 /* AppDelegate.swift in Sources */,
+				A6EE6BCD1EECC7F100D1F977 /* BellScheduleTableViewCell.swift in Sources */,
+				A6EE6BCF1EECE5FD00D1F977 /* General.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

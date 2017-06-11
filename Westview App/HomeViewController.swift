@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeViewController.swift
 //  Westview App
 //
 //  Created by Ronak Shah on 6/8/17.
@@ -8,11 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UITableViewDelegate, UITableViewDataSource {
+class HomeViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var tableView: UITableView!
     
+    @IBOutlet weak var navigationTitle: UILabel!
     var cellsAcross = 3
     var cellsDown = 2
     var horizGap = 0
@@ -22,9 +23,9 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-
+        self.navigationTitle.textColor = commonColors.gold
         collectionView.contentInset = UIEdgeInsetsMake(-50, 0, 0, 0)
-        navigationController?.navigationBar.barTintColor = UIColor(red:0.20, green:0.25, blue:0.29, alpha:1.0)
+        navigationController?.navigationBar.barTintColor = commonColors.coolBlack
 
     }
 
@@ -85,12 +86,33 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             
         }
         cell.button.setImage(image!, for: .normal)
+        cell.button.tag = indexPath.row
+        cell.button.tintColor = commonColors.coolBlack
         
-        cell.button.tintColor = UIColor(red:0.20, green:0.25, blue:0.29, alpha:1.0)
-    
         //cell.button.setImage(UIImage(named: "bell")!, for: .normal)
         return cell
     }
+    
+    
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        self.collectionView.reloadData()
+    }
+    // Method will be called when a menu bar item is tapped
+    
+    @IBAction func buttonTapped(_ sender: UIButton) {
+        // decide what to do, depending on which menu button it is
+        switch(sender.tag) {
+        case 0:
+            let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let newViewController = storyBoard.instantiateViewController(withIdentifier: "bellScheduleViewController") as! BellScheduleViewController
+            
+            self.navigationController?.pushViewController(newViewController, animated: true)
+            break
+        default:
+            break
+        }
+    }
+    
     
     // MARK: Table View Methods
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -100,10 +122,12 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! AnnouncementTableViewCell
         cell.webView.loadHTMLString("<h1>testing</h1>", baseURL: nil)
+        cell.webView.scrollView.bounces = false
+        cell.webView.scrollView.isScrollEnabled = false
         return cell
     }
     
-    func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+    @nonobjc func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: IndexPath) -> CGFloat {
         return UITableViewAutomaticDimension
     }
 }
